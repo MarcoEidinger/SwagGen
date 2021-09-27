@@ -19,6 +19,7 @@ New template `Templates/Swift-SAPURLSession` was created as a copy of `Templates
 - uses SAPFoundation and its `SAPURLSession` class
 - does not create a Swift Package
 - applies access level `internal` (but can be changed back with option `apiAccessLevel`)
+- uses `Combine` and offers a publisher based API (in addition to a traditional callback-based API)
 
 ### How-to use
 
